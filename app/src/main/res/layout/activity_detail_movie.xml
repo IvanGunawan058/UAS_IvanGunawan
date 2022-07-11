@@ -1,109 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="17dp"
-    android:orientation="vertical"
-    tools:context=".DetailMovieActivity">
-    <LinearLayout
-        android:orientation="horizontal"
+    android:textSize="18sp"
+    android:background="@drawable/grad"
+    tools:context=".DetailMovieActivity"
+    android:textColor="#000000">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_marginVertical="20dp"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="40dp"
+        android:text="title"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/img_poster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <TextView
+        android:id="@+id/overview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
-        <ImageView
-            android:id="@+id/img_poster"
-            android:layout_width="200dp"
-            android:layout_height="300dp"
-            tools:src="#000"
-            />
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/tv_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="18dp"
-                android:textSize="20sp"
-                tools:text="Avenger" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="18dp"
-                android:layout_marginTop="19dp"
-                android:text="Status"
-                android:textColor="#9D9F8A"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/tv_status"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="18dp"
-                android:textColor="#F44336"
-                android:textSize="18sp"
-                tools:text="Status" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="18dp"
-                android:layout_marginTop="7dp"
-                android:text="Rating"
-                android:textColor="#9D9F8A"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:id="@+id/tv_rating"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="18dp"
-                    android:textColor="#F44336"
-                    android:textSize="18sp"
-                    tools:text="3.0" />
-
-                <ImageView
-                    android:id="@+id/img_rating"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
-                    />
-            </LinearLayout>
-
-        </LinearLayout>
-
-    </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Overview"
-        android:layout_gravity="center"
-        android:textColor="#000"
-        android:textSize="20sp"
+        android:layout_margin="40dp"
         android:textStyle="bold"
-        android:layout_marginTop="20dp"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
 
     <TextView
-        android:layout_marginTop="20dp"
-        android:id="@+id/tv_overview"
+        android:id="@+id/original_language"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="17sp"
-        android:textColor="#000"
-        tools:text="Lorem ipsum dulur amet wkowkdoawdjndf asfbasdnf asdf "
-        />
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/original_language"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/overview"
+        app:layout_constraintVertical_bias="0.078" />
 
-</LinearLayout>
+    <TextView
+        android:id="@+id/release_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="140dp"
+        android:text="tanggal"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/original_language"
+        app:layout_constraintVertical_bias="0.189" />
+
+    <ImageView
+        android:id="@+id/img_poster"
+        android:layout_width="408dp"
+        android:layout_height="232dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@+id/overview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.773"
+        tools:src="@drawable/ic_launcher_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

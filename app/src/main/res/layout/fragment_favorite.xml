@@ -8,7 +8,7 @@
         android:id="@+id/rellay1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_200"
+        android:background="#031475"
         android:paddingBottom="20dp">
 
         <RelativeLayout
@@ -16,17 +16,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="20dp"
+            android:background="@drawable/cricle_border">
 
             <ImageView
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="9dp"
-                android:layout_marginTop="9dp"
-                android:layout_marginEnd="9dp"
-                android:layout_marginBottom="9dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
                 android:adjustViewBounds="true"
-                android:padding="3dp"
+                android:background="@drawable/circle"
+                android:padding="1dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/ivan" />
 
@@ -41,7 +43,7 @@
             android:layout_marginTop="15sp"
             android:fontFamily="sans-serif-light"
             android:text="Ivan Gunawan"
-            android:textColor="#000000"
+            android:textColor="#FFFCFC"
             android:textSize="32sp" />
 
 
@@ -54,7 +56,7 @@
             android:fontFamily="sans-serif"
             android:text="purwodadi,Pekanbaru,Riau-Indonesia"
             android:textAllCaps="true"
-            android:textColor="@color/black"
+            android:textColor="#E8EDEF"
             android:textSize="14sp" />
 
     </RelativeLayout>
@@ -71,6 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:background="#03A9F4"
             android:gravity="center"
             android:paddingBottom="5dp"
             android:paddingTop="5dp">
@@ -107,6 +110,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:background="#03A9F4"
             android:gravity="center"
             android:paddingBottom="5dp"
             android:paddingTop="5dp">
@@ -122,7 +126,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
                     android:text="20"
-                    android:textColor="#000000"
+                    android:textColor="@color/black"
                     android:textSize="25sp" />
 
                 <TextView
@@ -164,7 +168,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email"
-                    android:textColor="@color/black"
+                    android:textColor="#4CAF50"
                     android:textSize="13sp" />
 
                 <TextView
@@ -179,7 +183,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginTop="15dp"
-                    />
+                    android:background="@color/black" />
 
             </LinearLayout>
 
@@ -193,6 +197,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Phone/WhatsApp"
+                    android:textColor="#4CAF50"
                     android:textSize="13sp" />
 
                 <TextView
@@ -207,7 +212,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginTop="15dp"
-                    />
+                    android:background="@color/black" />
 
             </LinearLayout>
 
@@ -221,12 +226,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Instagram"
+                    android:textColor="#4CAF50"
                     android:textSize="13sp" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="instagram.com/Ivan058"
+                    android:text="instagram.com/ivan058"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -235,7 +241,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginTop="15dp"
-                    />
+                    android:background="@color/black" />
 
             </LinearLayout>
 
@@ -249,13 +255,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Facebook"
+                    android:textColor="#4CAF50"
                     android:textSize="13sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-light"
-                    android:text="facebook.com/Milkyway"
+                    android:text="facebook.com/MilkyWAy"
                     android:textColor="#000000"
                     android:textSize="18sp" />
 
@@ -263,7 +270,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginTop="15dp"
-                    />
+                    android:background="@color/black" />
 
 
             </LinearLayout>

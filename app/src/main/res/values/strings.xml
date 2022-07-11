@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MovieCatalogue10</string>
+    <string name="app_name">UASMovieIvan</string>
+    <string name="original_language">original_language</string>
 </resources>

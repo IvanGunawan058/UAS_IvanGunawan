@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MovieCatalogue10/app/src/main/res/drawable/circle.xml" value="0.104" />
+        <entry key="..\:/MovieCatalogue10/app/src/main/res/drawable/cricle_border.xml" value="0.104" />
+        <entry key="..\:/MovieCatalogue10/app/src/main/res/drawable/grad.xml" value="0.104" />
+        <entry key="..\:/MovieCatalogue10/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.104" />
         <entry key="..\:/MovieCatalogue10/app/src/main/res/drawable/ic_launcher_background.xml" value="0.104" />
         <entry key="..\:/MovieCatalogue10/app/src/main/res/layout/activity_detail_movie.xml" value="0.12409420289855072" />
-        <entry key="..\:/MovieCatalogue10/app/src/main/res/layout/fragment_favorite.xml" value="0.12409420289855072" />
+        <entry key="..\:/MovieCatalogue10/app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
         <entry key="..\:/MovieCatalogue10/app/src/main/res/layout/fragment_movie.xml" value="0.12409420289855072" />
         <entry key="..\:/MovieCatalogue10/app/src/main/res/layout/fragment_tv_show_fragment.xml" value="0.12409420289855072" />
         <entry key="..\:/MovieCatalogue10/app/src/main/res/layout/movie_item.xml" value="0.12409420289855072" />
